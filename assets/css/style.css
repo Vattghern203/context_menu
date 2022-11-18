@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #BB55E9 0%, #5D6BE6 100%);
+}
+
+.wrapper {
+    position: absolute;
+    visibility: hidden;
+    width: 300px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.1)
+}
+
+.wrapper .menu {
+    padding: 10px 12px;
+}
+
+.content .item {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 22px;
+    height: 50px;
+    width: 100%;
+    padding: 0 5px 0 10px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.content .item span {
+    font-size: 19px;
+    margin-left: 8px;
+}
+
+.content .item:hover {
+    background-color: #F2F2F2;
+}
+
+.content .setting {
+    display: flex;
+    padding: 5px 12px;
+    margin-top: -5px;
+    border-top: 1px solid #CCC;
+}
+
+.content .share {
+    position: relative;
+    justify-content: space-between;
+}
+
+.share .share-menu {
+    position: absolute;
+    background-color: #FFF;
+    width: 200px;
+    right: -200px;
+    top: -35px;
+    border-radius: 10px;
+    padding: 13px ;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+.share:hover .share-menu {
+    opacity: 1;
+    pointer-events: auto;
+
+}
