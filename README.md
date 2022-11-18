@@ -4,18 +4,18 @@ This is a simple context menu made with HTML, CSS and JavaScript following the s
 # Properties and built-in functions
 
 ## Properties
-    - offSetX and offSetY;
-    - innerWidth and innerHeight;
-    - visibility
+- offSetX and offSetY;
+- innerWidth and innerHeight;
+- visibility
 
 ## Built-in
-    - preventDefault;
-    - addEventListener;
-    - querySelector;
+- preventDefault;
+- addEventListener;
+- querySelector;
 
 # Github Pages
 
-    [Link](https://vattghern203.github.io/context_menu/) 🚀
+[Link](https://vattghern203.github.io/context_menu/) 🚀
 
 
 
